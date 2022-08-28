@@ -8,7 +8,7 @@ import NavBootstrap from './component/NavBootstrap/NavBootstrap'
 function App() {
   return (
     <div className="App">
-       <h1 className="text-center">👉SEGUNDO Y TERCER DESAFIO ENTREGABLE 👌</h1>
+       <h1 className="text-center">👉 DESAFIO CONTADOR 👌</h1>
       <NavBootstrap />
       <div>
           <ItemListContainer/>  
