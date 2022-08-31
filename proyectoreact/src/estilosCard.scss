@@ -1,0 +1,606 @@
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(45, 255, 245);
+  }
+  
+  p {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(45, 255, 245);
+  }
+  
+  .colorTexto {
+    color: rgb(45, 255, 245);
+    text-align: center;
+  }
+  
+  .bordeContenido {
+    border: 2px solid;
+    border-color: #b1b1df;
+  }
+  
+  .contenedorSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auro auto auto auto;
+    grid-template-areas:
+      "fotoUno fotoDos fotoTres fotoCuatro  "
+      "fotoCinco fotoSeis fotoSiete fotoOcho"
+      "fotoNueve fotoDiez fotoOnce fotoDoce";
+    display: flex 10px;
+    width: 100%;
+    height: 100%;
+    gap: 100px;
+    padding-left: 80px;
+    padding-top: 20px;
+    transition: transform 0.3s ease-in-out;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5px;
+    border-radius: 4px;
+    margin: 5px;
+    /*display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;*/
+    
+  }
+  
+  .prueba{
+    animation: 3s ease 0s 1 normal none running fadeUp;
+      background: linear-gradient(rgb(136, 61, 242), transparent);
+      border-radius: 5px;
+      padding: 10px;
+      transition: all 0.2s ease 0s;
+      cursor: default;
+  }
+  
+  
+  .tablaGeneral {
+    padding-top: 40px;
+    border-top: #b1b1df;
+    border-style: double;
+  }
+  
+  .tablaUno {
+    grid-area: "fotoUno";
+    width:200px;
+    height: 800px;
+     ;
+    
+   /* box-shadow: 10px 5px rgb(136, 61, 242);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;*/
+    display: flex;
+      flex-direction: column;
+      background: linear-gradient(rgb(136, 61, 242), transparent);
+      border-radius: 10px;
+      padding: 25px 20px 60px;
+      text-align: center;
+      cursor: default;
+      transition: all 0.2s ease 0s;
+      animation: 1.5s ease 0s 1 normal none running fadeIn;
+  }
+  
+  
+  
+  .tablaUno:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+      transform: translateX(-3px);
+  }
+  
+  .tablaDos {
+    grid-area: "fotoDos";
+    width: 200;
+    height: 800px;
+    /*box-shadow: 10px 5px rgb(98, 194, 194);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;*/
+    display: flex;
+      flex-direction: column;
+      background: linear-gradient(rgb(136, 61, 242), transparent);
+      border-radius: 10px;
+      padding: 25px 20px 60px;
+      text-align: center;
+      cursor: default;
+      transition: all 0.2s ease 0s;
+      animation: 1.5s ease 0s 1 normal none running fadeIn;
+  }
+  .tablaDos:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+      transform: translateX(-3px);
+  }
+  
+  .tablaTres {
+    grid-area: "fotoTres";
+    width: 200px;
+    height: 800px;
+    /*box-shadow: 10px 5px rgb(98, 194, 194);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;*/
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(136, 61, 242), transparent);
+    border-radius: 10px;
+    padding: 25px 20px 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.2s ease 0s;
+    animation: 1.5s ease 0s 1 normal none running fadeIn;
+  }
+  .tablaTres:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+    transform: translateX(-3px);
+  }
+  
+  .tablaCuatro {
+    grid-area: "fotoCuatro";
+    width: 200px;
+    height: 800px;
+    /*box-shadow: 10px 5px rgb(98, 194, 194);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;*/
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(136, 61, 242), transparent);
+    border-radius: 10px;
+    padding: 25px 20px 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.2s ease 0s;
+    animation: 1.5s ease 0s 1 normal none running fadeIn;
+  
+  }
+  .tablaCuatro:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+    transform: translateX(-3px);
+  }
+  
+  .tablaCinco {
+    grid-area: "fotoCinco";
+    width: 200px;
+    height: 800px;
+    /*box-shadow: 10px 5px rgb(98, 194, 194);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;*/
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(136, 61, 242), transparent);
+    border-radius: 10px;
+    padding: 25px 20px 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.2s ease 0s;
+    animation: 1.5s ease 0s 1 normal none running fadeIn;
+  }
+  .tablaCinco:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+    transform: translateX(-3px);
+  }
+  
+  .tablaSeis {
+    grid-area: "fotoSeis";
+    width: 200px;
+    height: 800px;
+    /*box-shadow: 10px 5px rgb(98, 194, 194);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;*/
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(136, 61, 242), transparent);
+    border-radius: 10px;
+    padding: 25px 20px 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.2s ease 0s;
+    animation: 1.5s ease 0s 1 normal none running fadeIn;
+  }
+  .tablaSeis:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+    transform: translateX(-3px);
+  }
+  .tablaSiete {
+    grid-area: "fotoSiete";
+    width: 200px;
+    height: 800px;
+    /*box-shadow: 10px 5px rgb(98, 194, 194);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;*/
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(136, 61, 242), transparent);
+    border-radius: 10px;
+    padding: 25px 20px 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.2s ease 0s;
+    animation: 1.5s ease 0s 1 normal none running fadeIn;
+  }
+  .tablaSiete:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+    transform: translateX(-3px);
+  }
+  
+  .tablaOcho {
+    grid-area: "fotoOcho";
+    width: 200px;
+    height: 800px;
+    /*box-shadow: 10px 5px rgb(98, 194, 194);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;*/
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(136, 61, 242), transparent);
+    border-radius: 10px;
+    padding: 25px 20px 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.2s ease 0s;
+    animation: 1.5s ease 0s 1 normal none running fadeIn;
+  }
+  .tablaOcho:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+    transform: translateX(-3px);
+  }
+  
+  .tablaNueve {
+    grid-area: "fotoNueve";
+    width: 200px;
+    height: 800px;
+    /*box-shadow: 10px 5px rgb(98, 194, 194);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;*/
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(136, 61, 242), transparent);
+    border-radius: 10px;
+    padding: 25px 20px 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.2s ease 0s;
+    animation: 1.5s ease 0s 1 normal none running fadeIn;
+  }
+  .tablaNueve:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+    transform: translateX(-3px);
+  }
+  
+  .tablaDiez {
+    grid-area: "fotoDiez";
+    width: 200px;
+    height: 800px;
+    /*box-shadow: 10px 5px rgb(98, 194, 194);
+    border-style: solid;
+    border-color: rgb(98, 194, 194);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;*/
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(136, 61, 242), transparent);
+    border-radius: 10px;
+    padding: 25px 20px 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.2s ease 0s;
+    animation: 1.5s ease 0s 1 normal none running fadeIn;
+  }
+  .tablaDiez:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+    transform: translateX(-3px);
+  }
+  
+  /****************sector galeria 15 años*************/
+  .sectionGaleria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5px;
+    border-radius: 4px;
+    margin: 5px;
+  }
+  
+  .tituloGaleria {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    grid-template-rows: none;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: solid;
+    color: gray;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+  }
+  
+  .contenedorTitulo {
+    grid-area: auto;
+    grid-template-rows: 1fr;
+    background-color: red;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .logo {
+    width: 300px;
+  }
+  .contenedorLogo {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+  
+  .contenedorQuince {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "fotoUno fotoDos fotoTres fotoCuatro  "
+      "fotoCinco fotoSeis fotoSiete fotoOcho"
+      "fotoNueve fotoDiez fotoOnce fotoDoce";
+    display: flex 10px;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    gap: 20px;
+    padding-left: 80px;
+    padding-top: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fotoUno {
+    grid-area: fotoUno;
+    width: 200px;
+    height: 300px;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fotoUno:hover {
+    transform: scale(2);
+  }
+  
+  .fotoDos {
+    grid-area: fotoDos;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoDos:hover {
+    transform: scale(2);
+  }
+  
+  .fotoTres {
+    grid-area: fotoTres;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black; /* SOMBRA*/
+    border-style: solid; /* BORDE IMG*/
+    border-color: white;
+  }
+  
+  .fotoTres:hover {
+    transform: scale(2);
+  }
+  
+  .fotoCuatro {
+    grid-area: fotoCuatro;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoCuatro:hover {
+    transform: scale(2);
+  }
+  
+  .fotoCinco {
+    grid-area: fotoCinco;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoCinco:hover {
+    transform: scale(2);
+  }
+  
+  .fotoSeis {
+    grid-area: fotoSeis;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoSeis:hover {
+    transform: scale(2);
+  }
+  
+  .fotoSiete {
+    grid-area: fotoSiete;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoSiete:hover {
+    transform: scale(2);
+  }
+  
+  .fotoOcho {
+    grid-area: fotoOcho;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoOcho:hover {
+    transform: scale(2);
+  }
+  
+  .fotoNueve {
+    grid-area: fotoNueve;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoNueve:hover {
+    transform: scale(2);
+  }
+  
+  .fotoDiez {
+    grid-area: fotoDiez;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoDiez:hover {
+    transform: scale(2);
+  }
+  
+  .fotoOnce {
+    grid-area: fotoOnce;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoOnce:hover {
+    transform: scale(2);
+  }
+  
+  .fotoDoce {
+    grid-area: fotoDoce;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px black;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .fotoDoce:hover {
+    transform: scale(2);
+  }
+  
+  
+  
+  
+  /*****************otro sector de prueba***********/
+    /*display: flex;
+     margin: 0px auto; 
+     width: 90%;
+     justify-content: center;
+     
+     
+  
+  }
+     /*background-color: red;
+      gap: 20px;
+      padding-left: 80px;
+      padding-top: 20px;
+      transition: transform 0.3s ease-in-out;
+    }*/
+   
+  /*.galeria {
+  font-family: 'ope sans';
+  }
+  
+  /*.galeria h1 {
+      text-align: center;
+      margin: 20px 0 15px 0;
+      font-size: 400px;
+  }*/
+  
+  /*.linea{
+      border-top: 5px solid #0077c0;
+  }
+  
+  .contenedorImagen{
+      display: flex;
+      width: 100%;
+      margin: auto;
+      justify-content: space-around;
+      flex-wrap: nowrap;
+      border-radius: 3px;
+  
+  }
+  
+  /*.contenedorImagen .imagen{
+      width: 32%;
+      position: relative;
+      height: 250px;
+      margin-bottom: 5px;
+      box-shadow: 0px 0px 3px 0px rgba(0,0,0, .75);
+  
+  }
+  
+  /*.imagen img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }*/
+

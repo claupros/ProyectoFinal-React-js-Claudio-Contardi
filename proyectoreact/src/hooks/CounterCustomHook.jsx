@@ -4,7 +4,7 @@ import useCounter from './useCounter'
 const CounterCustomHook = ({stock, onAdd}) => {
     const {add, substract, reset, count} = useCounter(stock)
     return (
-        <div className="shadow-lg p-3 mb-5 bg-body rounded">
+        <div className="shadow-lg p-3 mb-5 bg-body rounded prueba">
            <div>
               <p>Stock Disponible:{stock}</p>
               <p>Cantidad:{count}</p> 
