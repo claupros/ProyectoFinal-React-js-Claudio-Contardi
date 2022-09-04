@@ -1,7 +1,12 @@
 import React from 'react'
 import useCounter from './useCounter'
 
-const CounterCustomHook = ({stock, onAdd}) => {
+
+
+const CounterCustomHook = ({ stock, onAdd }) => {
+  
+    console.log('Cantidad de productos:' + count)
+  
     const {add, substract, reset, count} = useCounter(stock)
     return (
         <div className="shadow-lg p-3 mb-5 bg-body rounded prueba">
@@ -22,3 +27,4 @@ const CounterCustomHook = ({stock, onAdd}) => {
 }
 
 export default CounterCustomHook
+

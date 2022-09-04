@@ -1,12 +1,16 @@
 import React from 'react'
 
-const itemList = () => {
+import Card from '../Card/Card';
+
+
+const ItemList = ({ productList }) => {
+  
   return (
-    <div>
-      
-    </div>
-  )
+   
+ productList.map(item => <Card key={item.id} productList={item}/> )         
+
+)
+    
 }
 
-export default itemList
-//* este sector me quedo en duda como utilizarlo  */
+export default ItemList;

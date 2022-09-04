@@ -5,7 +5,7 @@ const productos = [
         desc: "También conocido como southern cur, southern black mouth cur o yellow black mouth cur, es una raza de perro procedente del sudeste de los Estados Unidos.cada vez es más frecuente encontrarlo formando parte de la familia, pues su carácter sociable y leal lo convierte en un excelente perro de compañía.",
         origen:"Estados Unidos",
         precio: 100000,
-        img:'src/https://t1.ea.ltmcdn.com/es/razas/5/8/8/black-mouth-cur_885_0_300_150.jpg',
+        img:'https://t1.ea.ltmcdn.com/es/razas/5/8/8/black-mouth-cur_885_0_300_150.jpg',
         Stock: 3,
     },
     {
@@ -14,7 +14,7 @@ const productos = [
         desc: "El perro majorero es la raza canina autóctona de la isla de Fuerteventura, en el archipiélago canario, donde se le conoce popularmente como perro bardino. Se trata de una raza que ha sido empleada durante más de seis siglos como perro guardián y perro pastor.",
         origen:"España",
         precio: 120000,
-        img: 'src/https://t1.ea.ltmcdn.com/es/razas/0/9/8/perro-majorero-o-bardino_890_0_300_150.jpg',
+        img: 'https://t1.ea.ltmcdn.com/es/razas/0/9/8/perro-majorero-o-bardino_890_0_300_150.jpg',
         Stock: 5,   
     },
     {
@@ -23,7 +23,7 @@ const productos = [
         desc: "El pastor islandés en la raza canina autóctona de Islandia, lugar donde se considera un símbolo nacional muy querido. Debido a su resistencia, su agilidad e inteligencia, se ha empleado a lo largo de la historia para pastorear el ganado bovino y ovino. Sin embargo, también se considera un excelente perro de carácter alegre y amistoso.",
         origen:"Islandia",
         precio: 150000,
-        img: 'src/https://t1.ea.ltmcdn.com/es/razas/2/9/8/pastor-islandes_892_0_600.jpg',
+        img: 'https://t1.ea.ltmcdn.com/es/razas/2/9/8/pastor-islandes_892_0_600.jpg',
         Stock: 8, 
     },
     {
@@ -32,7 +32,7 @@ const productos = [
         desc: "El Northern inuit es una raza originaria de Gran Bretaña que se crio con la finalidad de obtener un perro con apariencia de lobo pero con el carácter propio de los perros domésticos. Pese a no ser una raza oficialmente reconocida, su popularidad es cada vez mayor, lo cual se debe en gran medida a su aparición en la famosa serie “Juego de Tronos”.",
         origen:"Reino Unidos",
         precio: 190000,
-        img: 'src/https://t2.ea.ltmcdn.com/es/razas/6/8/5/northern-inuit_586_0_600.jpg',
+        img: 'https://t2.ea.ltmcdn.com/es/razas/6/8/5/northern-inuit_586_0_600.jpg',
         Stock: 7,    
     },
     {
@@ -41,7 +41,7 @@ const productos = [
         desc: "El perro del faraón o podenco faraónico es una raza de perro de tamaño mediano y pelo corto que destaca por su porte elegante y atlético. Se trata de un perro de caza originario de la isla de Malta. Aunque no es una de las razas más extendidas, este lebrel es un excelente perro de compañía, que destaca por su nobleza y fidelidad.",
         origen:"Malta",
         precio: 230000,
-        img: 'src/https://t2.ea.ltmcdn.com/es/razas/4/8/8/perro-del-faraon_884_0_600.jpg',
+        img: 'https://t2.ea.ltmcdn.com/es/razas/4/8/8/perro-del-faraon_884_0_600.jpg',
         Stock: 2, 
     },
     {
@@ -50,7 +50,7 @@ const productos = [
         desc: "Si te gustan los perros con aspecto de lobo, el tamaskan te resultará una raza fascinante. Completamente diferente y con un temperamento único que lo convierte en un deportista nato, un perro de trabajo por excelencia y un maravilloso compañero de aventuras para tutores activos.",
         origen:"Finlandia",
         precio: 185000,
-        img: 'src/https://t1.ea.ltmcdn.com/es/razas/3/8/8/tamaskan_883_0_600.jpg',
+        img: 'https://t1.ea.ltmcdn.com/es/razas/3/8/8/tamaskan_883_0_600.jpg',
         Stock: 4,  
     },
     {
@@ -59,7 +59,7 @@ const productos = [
         desc: "El pastor americano miniatura, es un perro de pequeño tamaño que se originó a partir de perros pastores autralianos. Estos fueron creados a partir de perros europeos, principalmente españoles. Es un perro muy cariñoso, activo e inteligente, que adora pasar tiempo con sus cuidadores.",
         origen:"Estados Unidos",
         precio: 150000,
-        img: 'src/https://t2.ea.ltmcdn.com/es/razas/7/7/8/pastor-americano-miniatura-o-pastor-australiano-miniatura_877_0_600.jpg',
+        img: 'https://t2.ea.ltmcdn.com/es/razas/7/7/8/pastor-americano-miniatura-o-pastor-australiano-miniatura_877_0_600.jpg',
         Stock: 1, 
     },
     {
@@ -68,7 +68,7 @@ const productos = [
         desc: "El clumber spaniel es un perro que es para considerarse animales de compañía. Son unos perros corpulentos y pesados con una gran osamenta y un tamaño mediano. Tienen un carácter excepcional y su entrenamiento y educación son sencillos debido a su inteligencia y buena actitud.",
         origen:"Francia",
         precio: 210000,
-        img: 'src/https://t1.ea.ltmcdn.com/es/razas/6/7/8/clumber-spaniel_876_0_600.jpg',
+        img: 'https://t1.ea.ltmcdn.com/es/razas/6/7/8/clumber-spaniel_876_0_600.jpg',
         Stock: 1,   
     },
      {
@@ -77,7 +77,7 @@ const productos = [
          desc: "Caninos",
          origen:"Francia",
          precio: 210000,
-         img: 'src/https://t1.ea.ltmcdn.com/es/razas/5/8/8/black-mouth-cur_885_0_300_150.jpg',
+         img: 'https://t1.ea.ltmcdn.com/es/razas/5/8/8/black-mouth-cur_885_0_300_150.jpg',
          Stock: 1, 
      },
      {
@@ -86,7 +86,7 @@ const productos = [
          desc: "Caninos",
          origen:"Francia",
          precio: 210000,
-         img: 'src/https://t1.ea.ltmcdn.com/es/razas/6/7/8/clumber-spaniel_876_0_600.jpg',
+         img: 'https://t1.ea.ltmcdn.com/es/razas/6/7/8/clumber-spaniel_876_0_600.jpg',
          Stock: 1,
      },
      {
@@ -95,7 +95,7 @@ const productos = [
          desc: "Caninos",
          origen:"Francia",
          precio: 210000,
-         img: 'src/https://t1.ea.ltmcdn.com/es/razas/6/7/8/clumber-spaniel_876_0_600.jpg',
+         img: 'https://t1.ea.ltmcdn.com/es/razas/6/7/8/clumber-spaniel_876_0_600.jpg',
          Stock: 1,
      },
      {
@@ -104,7 +104,7 @@ const productos = [
          desc: "Caninos",
          origen:"Francia",
          precio: 210000,
-         img: 'src/https://t1.ea.ltmcdn.com/es/razas/6/7/8/clumber-spaniel_876_0_600.jpg',
+         img: 'https://t1.ea.ltmcdn.com/es/razas/6/7/8/clumber-spaniel_876_0_600.jpg',
          Stock: 1,
      }
 ]
