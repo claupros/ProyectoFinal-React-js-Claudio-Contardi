@@ -1,14 +1,11 @@
 import React from 'react'
-import CounterCustomHook from '../../hooks/CounterCustomHook'
-import './ItemDetail.css'
-
-
+import CounterCustomHook from '../hooks/CounterCustomHook'
 const ItemDetail = ({item}) => {
-    function onAdd(count) {
-        console.log(`Se han seleccionado: ${count}`)
+    const onAdd = (quantity) => {
+       console.log(quantity);
     }
     return (
-        <div className="contenedorSectionA card siqueA pruebaA tablaUnoA tablaGeneralA" key={item.id} style={{ width: '35rem' }}>
+        <div className="contenedorSection card sique prueba tablaUno tablaGeneral" key={item.id} style={{ width: '18rem' }}>
         <img src={item.img} className="card-img-top" alt="..." />
         <div className="card-body">
                 <h3 className="card-title">{item.nombre}</h3>
@@ -16,7 +13,7 @@ const ItemDetail = ({item}) => {
                 <h6>Seccion: {item.secc}</h6>  
             <h6>Origen: {item.origen}</h6>
             <h3>Precio:${item.precio}</h3>
-                <CounterCustomHook stock={15} onAdd={onAdd}/>  
+            <CounterCustomHook stock={15} onAdd={onAdd} />
         </div>
     </div>
     )

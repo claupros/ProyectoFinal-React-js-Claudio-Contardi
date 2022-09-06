@@ -5,6 +5,12 @@
     font-family: Raleway,sans-serif;
   
   }
+/* .sique {
+
+float: left; */
+
+
+
 
  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
@@ -81,7 +87,7 @@
   .tablaUno {
     grid-area: "fotoUno";
     width:200px;
-    height: 600px;
+    height: 900px;
     display: flex;
       flex-direction: column;
       background: linear-gradient(rgb(136, 61, 242), transparent);
