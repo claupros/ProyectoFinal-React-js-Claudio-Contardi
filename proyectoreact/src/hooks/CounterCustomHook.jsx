@@ -5,7 +5,7 @@ import useCounter from './useCounter'
 
 const CounterCustomHook = ({ stock, onAdd }) => {
   
-    console.log('Cantidad de productos:' + count)
+   
   
     const {add, substract, reset, count} = useCounter(stock)
     return (

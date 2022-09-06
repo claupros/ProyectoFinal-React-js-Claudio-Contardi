@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
-// import itemList from "../itemList/itemList";
 import SimuladorApi from "../SimuladorApi/SimuladorApi";
-// import ItemListConteiner from "../ItemListConteiner/ItemListConteiner";
 import React from 'react'
 import CounterCustomHook from "../../hooks/CounterCustomHook";
 import Swal from 'sweetalert2'
