@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Raleway,sans-serif;
-  
+    
   }
 
  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -15,13 +15,14 @@
    
   }
 
-.sique{
+.siqueA{
   display: flex;
   padding-left: 5px;
   margin-top: 5px;
   margin:30px;
   background-size: 100% 100%;
   float: left;
+  
 }
 
 
@@ -43,8 +44,8 @@
     
   }
   
-  .contenedorSection{
-    display: grid;
+  .contenedorSectionA{
+     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
@@ -57,11 +58,10 @@
     gap: 100px;
     padding-left: 80px;
     padding-top: 20px;
-    transition: transform 0.3s ease-in-out;
-   
+    transition: transform 0.3s ease-in-out;   
   }
   
-  .prueba{
+  .pruebaA{
     animation: 3s ease 0s 1 normal none running fadeUp;
       background: linear-gradient(rgb(136, 61, 242), transparent);
       border-radius: 5px;
@@ -71,17 +71,18 @@
   }
   
   
-  .tablaGeneral {
+  .tablaGeneralA {
     padding-top: 40px;
     border-top: #b1b1df;
     border-style: double;
     margin-top: 60px;
+  
   }
   
-  .tablaUno {
+  .tablaUnoA {
     grid-area: "fotoUno";
-    width:200px;
-    height: 600px;
+    width:400px;
+    height: 145vh;
     display: flex;
       flex-direction: column;
       background: linear-gradient(rgb(136, 61, 242), transparent);
@@ -95,7 +96,7 @@
   
   
   
-  .tablaUno:hover {
+  .tablaUnoA:hover {
     box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
       transform: translateX(-3px);
   } 

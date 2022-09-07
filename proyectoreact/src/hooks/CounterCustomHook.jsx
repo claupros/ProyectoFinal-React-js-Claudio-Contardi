@@ -1,15 +1,13 @@
 import React from 'react'
-import useCounter from './useCounter'
+import useCounter from '../hooks/useCounter'
 
 
 
 const CounterCustomHook = ({ stock, onAdd }) => {
   
-   
-  
-    const {add, substract, reset, count} = useCounter(stock)
+    const {add, substract, reset, count} = useCounter(stock, onAdd)
     return (
-        <div className="shadow-lg p-3 mb-5 bg-body rounded prueba">
+        <div className="shadow-lg p-3 mb-5 bg-body rounded pruebaA">
            <div>
               <p>Stock Disponible:{stock}</p>
               <p>Cantidad:{count}</p> 
@@ -19,7 +17,7 @@ const CounterCustomHook = ({ stock, onAdd }) => {
             <button className="btn btn-primary" onClick={add}>+</button>
         </div>
         <div className="d-grid gap-2">
-        <a href="#" className="btn btn-primary" onClick={() => onAdd(count)}>Agregar al Carrito</a>
+        <button className="btn btn-primary" onClick={() => onAdd(count)}>Agregar al Carrito</button>
          </div>
           </div>
     </div>

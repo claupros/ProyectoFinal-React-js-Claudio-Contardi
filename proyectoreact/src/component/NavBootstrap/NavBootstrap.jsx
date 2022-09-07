@@ -1,19 +1,25 @@
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
-import LinkDos from '../LinkDos/LinkDos'
-import LinkTres from '../LinkTres/LinkTres'
-import LinkUno from '../LinkUno/LinkUno'
 import LogoNav from '../LogoNav/LogoNav'
+import { Link } from 'react-router-dom'
+import '../NavBootstrap/NavBootstrap.css'
+
 
 const Nav = () => {
   return (
     <div>
-      <nav className="navbar navbar-dark bg-dark justify-content-center">
+      <nav className="contenedor navbar navbar-dark bg-dark justify-content-center">
         <LogoNav/> 
-     <ul className="nav ">
-          <LinkUno />
-           <LinkDos/>
-           <LinkTres/>
+        <ul className="nav ">
+        <Link to='/'>
+        <li className="nav-item">Home🐾</li>
+          </Link>
+          <Link to='/categoria/caninos'>
+        <li className="nav-item">Caninos🐾</li>
+          </Link>
+          <Link to='/categoria/felinos'>
+        <li className="nav-item">Felinos🐾</li>
+        </Link>
     <CartWidget/>  
         </ul>
 </nav>
