@@ -1,0 +1,16 @@
+.animate__heartBeat{
+    --animate-duration: 2s;
+
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+  .cent{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+  }

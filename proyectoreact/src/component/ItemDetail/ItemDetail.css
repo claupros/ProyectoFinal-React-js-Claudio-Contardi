@@ -100,3 +100,23 @@
     box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
       transform: translateX(-3px);
   } 
+
+  .sectorDetalle {
+    background: linear-gradient(rgb(136, 61, 242), transparent);
+    border-radius: 10px;
+    padding: 25px 20px 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.2s ease 0s;
+    animation: 1.5s ease 0s 1 normal none running fadeIn;
+    margin: 100px;
+    justify-content: center;
+    height: 40rem;
+
+  }
+
+  .sectorDetalle:hover {
+    box-shadow: rgb(136 61 242) 4px 4px, rgb(177 80 242) 6px 6px, rgb(215 98 217) 8px 8px;
+      transform: translateX(-3px);
+  } 
+  

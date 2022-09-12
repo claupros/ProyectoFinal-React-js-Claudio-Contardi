@@ -4,6 +4,7 @@ import useCounter from '../hooks/useCounter'
 
 
 const CounterCustomHook = ({ stock, onAdd }) => {
+
   
     const {add, substract, reset, count} = useCounter(stock, onAdd)
     return (
@@ -17,7 +18,8 @@ const CounterCustomHook = ({ stock, onAdd }) => {
             <button className="btn btn-primary" onClick={add}>+</button>
         </div>
         <div className="d-grid gap-2">
-        <button className="btn btn-primary" onClick={() => onAdd(count)}>Agregar al Carrito</button>
+            <button className="btn btn-primary" onClick={() => onAdd(count)}>Agregar al Carrito</button>
+            
          </div>
           </div>
     </div>
