@@ -1,0 +1,31 @@
+#ribbon {
+    background-color: rgb(76, 155, 232);
+    /* background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(32, 55, 76, 0.961)25px, rgba(32, 55, 76, 0.961) 40px); */
+}
+
+#ribbon::after {
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+
+#birthday {
+    background-color: rgb(32, 55, 76);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+#birthday img {
+    position: relative;
+    margin-top: -30px;
+}

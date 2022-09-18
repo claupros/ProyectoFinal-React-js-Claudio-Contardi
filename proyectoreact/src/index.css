@@ -1,16 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Raleway,sans-serif;
-  
-  }
-  
-  body {
-   /* background-image: url("https://th.bing.com/th/id/R.f09d566e5dcd1afd81ab8f4d1aab5cf0?rik=nBbfI9lU2EGXNQ&riu=http%3a%2f%2fwww.solofondos.com%2fwp-content%2fuploads%2f2015%2f11%2fbackground2-1024x640.jpg&ehk=kA8AwjBQKyBtTe49ydd7R7xYuC8Iv%2boKCWaq0vj6IGk%3d&risl=&pid=ImgRaw&r=0");*/
-   background-image: url(https://basejump.co.uk/wp-content/uploads/2019/06/bg-brick.jpg);
-   background-repeat:calc();
-   background-attachment: fixed;
-   background-size: 100% 100%;
-   
-  }
+
+
+i:hover{
+    cursor: pointer;
+}
