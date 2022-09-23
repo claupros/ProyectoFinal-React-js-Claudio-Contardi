@@ -23,14 +23,14 @@ function App() {
             <Route path="/" element={<ItemListContainer />} />
             <Route path="/Home" element={<ItemListContainer />} />
             <Route
-              path="/componentes/:categoriaId"
+              path="/category/:categoriaId"
               element={<ItemListContainer />}
             />
             <Route
               path="/detalle/:detalleId"
               element={<ItemDetailContainer />}
             />
-            {/* <Route path="/notebooks" element={<ItemDetailContainer />} /> */}
+            
             <Route path="/cart" element={<Cart />} />
           </Routes>
           <Footer />

@@ -78,7 +78,7 @@ export const productDetail = [
     img01: "https://t2.ea.ltmcdn.com/es/razas/7/7/8/pastor-americano-miniatura-o-pastor-australiano-miniatura_877_0_600.jpg",
     img02: "https://th.bing.com/th/id/OIP.yuHkZ9Fl3TwSa70D1Z4D3AHaHn?w=194&h=200&c=7&r=0&o=5&pid=1.7",
     img03: "https://th.bing.com/th/id/OIP.yuHkZ9Fl3TwSa70D1Z4D3AHaHn?w=194&h=200&c=7&r=0&o=5&pid=1.7",
-
+    desc: "El pastor americano miniatura, es un perro de pequeño tamaño que se originó a partir de perros pastores autralianos. Estos fueron creados a partir de perros europeos, principalmente españoles. Es un perro muy cariñoso, activo e inteligente, que adora pasar tiempo con sus cuidadores.",
     origen:"Estados Unidos",
     stock: 5,
     category:"canino"

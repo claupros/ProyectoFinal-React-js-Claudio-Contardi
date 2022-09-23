@@ -42,7 +42,7 @@ export const Navbar = () => {
                   <li>
                     <NavLink
                       className="dropdown-item"
-                      to="/componentes/canino"
+                      to="/category/canino"
                     >
                       🐾Caninos
                     </NavLink>
@@ -50,7 +50,7 @@ export const Navbar = () => {
                   <li>
                     <NavLink
                       className="dropdown-item"
-                      to="/componentes/felino"
+                      to="/category/felino"
                     >
                       🐾Felinos
                     </NavLink>
