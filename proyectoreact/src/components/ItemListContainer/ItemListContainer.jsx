@@ -15,7 +15,7 @@ export const ItemListContainer = () => {
 
   const getData = async (categoria) => {
     try {
-      setData(true)
+       setLoad(true)
       const document = categoria? query(collection(db, "productos"), where("category","==",categoria))
        : collection(db, "productos")
        const col = await getDocs(document)
@@ -44,7 +44,7 @@ export const ItemListContainer = () => {
 
   useEffect(() => {
     getData(categoriaId)
-  }, [categoriaId])
+  }, [ categoriaId ]);
 
   //**sector firebase nuevo effect **/
   // useEffect(() => {
