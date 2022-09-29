@@ -35,8 +35,8 @@ const Checkout = () => {
         }))
     }
 
-    const handleSubmit = () => {
-        
+    const handleSubmit = (product) => {
+         product.preventDefault()
         const items = cart.map((product) => ({
             id: product.id,
             title: product.title,
