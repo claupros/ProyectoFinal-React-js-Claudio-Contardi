@@ -3,9 +3,11 @@
 Soy Claudio Contardi, realice mi proyecto final para REACT.js sobre un ecommerce de Perros y Gatos.
  
 # Imagenes:
-
-/**agregar img de proyecto final**/
-
+![captura1](https://user-images.githubusercontent.com/103082667/194999303-7757a3ec-b752-4738-be31-795e393deb1f.png)
+![captura2](https://user-images.githubusercontent.com/103082667/194999319-f5ecb228-a85f-416d-8486-e9a7e7f3639f.png)
+![captura3](https://user-images.githubusercontent.com/103082667/194999324-e0d0ba5e-aa93-41c5-8fe9-3483c2d8d937.png)
+![captura4](https://user-images.githubusercontent.com/103082667/194999328-5ce86168-f7c7-404c-93aa-2d904b31503f.png)
+![captura5](https://user-images.githubusercontent.com/103082667/195000570-a2ead2da-ade8-4a3a-804f-4eb84e6bda7b.png)
 # const Informacion = () => {
       Estudiante: Claudio A. Contardi,
       Github: https://github.com/claupros/ProyectoFinal-React-js-Claudio-Contardi,
