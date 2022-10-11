@@ -1,21 +1,40 @@
+.logo {
+  display: flex;
+  justify-content: space-around;
+}
+
 .logo:hover {
-    filter: drop-shadow(3px 3px 20px #4091fb)
+  filter: drop-shadow(3px 3px 20px #4091fb);
 }
 
 .carrito:hover {
-    filter: drop-shadow(3px 3px 10px #4091fb)
+  filter: drop-shadow(3px 3px 10px #4091fb);
 }
 
 .nav-item .nav-link:hover {
-    color: rgb(74, 137, 220);
+  color: rgb(74, 137, 220);
 }
 
-.pers{
-    background-color:chocolate;
+.pers {
+  background-color: chocolate;
 }
 
-/** borrar itemde pueba**/
-.itemDePrueba{
+.animateLogo {
+  animation: backInLeft;
+  animation-duration: 3s;
+}
 
-    background-color: aliceblue;
+.animateTitulo {
+  animation: backInRight;
+  animation-duration: 3s;
+}
+
+.animateHome {
+  animation: fadeInBottomLeft;
+  animation-duration: 3s;
+}
+
+.animateCateg {
+  animation: fadeInBottomRight;
+  animation-duration: 4s;
 }

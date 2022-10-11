@@ -1,16 +1,12 @@
 import React, { useState } from "react";
-
-export const ItemCounts = ({stock, onClick}) => {
- 
-
+import "./cards.css";
+export const ItemCounts = ({ stock, onClick }) => {
   const [count, setCount] = useState(1);
-
   const onSumar = () => {
     if (count < stock) {
       setCount(count + 1);
     } else return;
   };
-
   const onRestar = () => {
     if (count > 1) {
       setCount(count - 1);
@@ -39,7 +35,7 @@ export const ItemCounts = ({stock, onClick}) => {
         </button>
       </div>
       <div className="d-grid gap-2">
-        <button disabled={stock<=0} className="btn btn-lg btn-dark mt-2" type="button" onClick={()=>onClick(count)} >
+        <button disabled={stock <= 0} className="btn btn-lg btn-dark mt-2" type="button" onClick={() => onClick(count)} >
           Agregar al carrito
         </button>
       </div>

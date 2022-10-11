@@ -1,12 +1,12 @@
 import React from "react";
 import { useCartContext } from "../../context/CartContext";
-
+import "./Cart.css"
 
 export const ItemCart = ({ product }) => {
   const { removeItem } = useCartContext();
 
   return (
-    <div className="card mb-3">
+    <div className="card mb-3 cart marginGral ">
       <div className="row g-0">
         <div className="col-2">
           <img
@@ -26,7 +26,7 @@ export const ItemCart = ({ product }) => {
             <p>Precio: ${product.price}</p>
           </div>
         </div>
-        <div className="col-1 d-flex align-items-center">
+        <div className="col-1 d-flex align-items-center ">
           <div className="card-body">
             <p>Subtotal:${product.quantity * product.price}</p>
           </div>

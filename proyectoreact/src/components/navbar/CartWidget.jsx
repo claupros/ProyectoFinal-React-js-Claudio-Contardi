@@ -2,9 +2,7 @@ import { Link } from "react-router-dom";
 import { useCartContext } from "../../context/CartContext";
 
 export const CartWidget = () => {
-
-  const {totalProducts, cart} = useCartContext();
-
+  const { totalProducts, cart } = useCartContext();
   return (
     <>
       <li className={`nav-item ${cart.length === 0 ? "d-none" : "d-block"}`}>

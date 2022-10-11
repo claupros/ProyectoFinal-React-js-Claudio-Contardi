@@ -1,0 +1,43 @@
+.titulo {
+  color: rgb(26, 2, 7);
+  justify-content: center;
+  text-align: center;
+}
+.modi1 {
+  font-size: 10rem;
+  color: crimson;
+  text-align: end;
+  margin-top: 3rem;
+  padding-left: 30px;
+}
+.modi2 {
+  font-size: 10rem;
+  color: crimson;
+  text-align: start;
+  margin-top: 3rem;
+  padding-left: 190px;
+}
+.modi3 {
+  font-size: 25rem;
+  color: crimson;
+  text-align: end;
+  margin-top: 18rem;
+}
+.modi4 {
+  font-size: 25rem;
+  color: crimson;
+  text-align: start;
+  margin-top: 18rem;
+}
+.modi5 {
+  font-size: 25rem;
+  color: crimson;
+  text-align: end;
+  margin-top: 1rem;
+}
+.modi6 {
+  font-size: 25rem;
+  color: crimson;
+  text-align: start;
+  margin-top: 10rem;
+}

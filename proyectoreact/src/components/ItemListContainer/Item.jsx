@@ -13,8 +13,8 @@ export const Item = ({ productos }) => {
               alt={productos.title}
             />
           </Link>
-          <div className="card-body bg-white">
-            <h6 className="text-black text-center"> {productos.title }</h6>
+          <div className="card-body bg-white ">
+            <h6 className="text-black text-center"> {productos.title}</h6>
             <p className="text-black text-center">Categoria :{productos.category}</p>
             <p className="text-black text-center">Origen :{productos.origen}</p>
             <p className="text-black text-center">${productos.price}</p>

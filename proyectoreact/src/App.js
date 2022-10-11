@@ -8,7 +8,7 @@ import Serccher from "./components/navbar/Serccher";
 import { Cart } from "./components/cart/Cart";
 import { Footer } from "./components/footer/Footer";
 import { CartProvider } from "./context/CartContext";
-import  Checkout   from "./components/checkout/Checkout";
+import Checkout from "./components/checkout/Checkout";
 
 function App() {
   return (
@@ -30,14 +30,14 @@ function App() {
               path="/detalle/:detalleId"
               element={<ItemDetailContainer />}
             />
-           
+
             <Route path="/cart" element={<Cart />} />
             <Route path="/Checkout" element={<Checkout />} />
           </Routes>
           <Footer />
         </CartProvider>
       </BrowserRouter>
-       
+
     </>
   );
 }

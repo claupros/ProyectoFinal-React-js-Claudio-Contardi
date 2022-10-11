@@ -23,12 +23,12 @@ export const Navbar = () => {
             id="navbarColor02"
           >
             <ul className="navbar-nav w-100 justify-content-evenly">
-              <li className="nav-item">
+              <li className="nav-item animateHome">
                 <NavLink className="nav-link" to="/Home">
-                🐾Home
+                  🐾Home
                 </NavLink>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown animateCateg">
                 <NavLink
                   to="/"
                   className="nav-link dropdown-toggle"
@@ -55,22 +55,8 @@ export const Navbar = () => {
                       🐾Felinos
                     </NavLink>
                   </li>
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to=""
-                    >
-                     🐾Vacio
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="dropdown-item" to="">
-                    🐾Vacio
-                    </NavLink>
-                  </li>
                 </ul>
               </li>
-
               <CartWidget />
             </ul>
           </div>

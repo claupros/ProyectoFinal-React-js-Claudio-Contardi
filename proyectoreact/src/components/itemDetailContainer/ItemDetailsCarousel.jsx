@@ -1,7 +1,5 @@
 import React from "react";
-
-
-export const ItemDetailsCarousel = ({data}) => {
+export const ItemDetailsCarousel = ({ data }) => {
 
   return (
     <>

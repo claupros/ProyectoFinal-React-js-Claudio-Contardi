@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.10.0",
-    "@emotion/styled": "^11.10.0",
     "@mui/icons-material": "^5.8.4",
-    "@mui/material": "^5.10.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -16,7 +13,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "sweetalert2": "^11.4.29",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -43,9 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "Se trata de un E-commerse de productos para PC",
+  "description": "Se trata de un E-commerse de Perros y Gatos",
   "main": "index.js",
-  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }
